@@ -11,8 +11,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="p-2 bg-gradient-growth rounded-lg">
-              <Brain className="h-6 w-6 text-primary-foreground" />
+            <div className="p-0 m-0">
+              <img 
+                src="/resource-uploads/knowgrow-logo.jpg" 
+                alt="KnowGrow Logo" 
+                className="h-12 w-12 object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-foreground">KnowGrow</span>
           </div>

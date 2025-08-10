@@ -31,7 +31,7 @@ const SolutionSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Meet KnowGrow: Your 
+            Meet <span className="bg-gradient-growth bg-clip-text text-transparent"> KnowGrow</span>: Your 
             <span className="bg-gradient-growth bg-clip-text text-transparent"> Adaptive Learning</span> Partner
           </h2>
           

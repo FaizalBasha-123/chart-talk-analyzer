@@ -258,7 +258,7 @@ const About = () => {
             <div className="relative">
               <div className="rounded-xl overflow-hidden shadow-growth">
                 <img
-                  src="lovable-uploads\about-knowgrow.png"
+                  src="/resource-uploads/about-knowgrow.png"
                   alt="About KnowGrow page preview"
                   loading="lazy"
                   className="w-full rounded-xl shadow-growth object-cover object-fit object-center"

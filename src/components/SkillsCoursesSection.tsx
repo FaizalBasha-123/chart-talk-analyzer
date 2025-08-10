@@ -353,7 +353,7 @@ const SkillsCoursesSection = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            All the skills you need in one place
+            All the <span className="bg-gradient-growth bg-clip-text text-transparent"> skills </span> you need in one place
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             From critical skills to technical topics, our platform supports your professional development.
@@ -450,7 +450,6 @@ const SkillsCoursesSection = () => {
           <Button variant="outline" className="px-8 py-3">
             Show all {activeCategory} courses
           </Button>
-          <Button className="px-8 py-3" onClick={() => (window.location.href = "/skills/trending")}>View All Skills</Button>
         </div>
       </div>
     </section>

@@ -228,7 +228,7 @@ const WhyChooseUs = () => {
                 className="relative"
               >
                 <img
-                  src="lovable-uploads\why choose-knowgrow.png"
+                  src="/resource-uploads/why choose-knowgrow.png"
                   alt="KnowGrow learning with laptop"
                   loading="lazy"
                   className="w-full rounded-xl shadow-growth object-cover object-fit object-center"
